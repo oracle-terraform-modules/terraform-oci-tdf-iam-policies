@@ -31,7 +31,7 @@ This core service module is typically used at deployment, with no further access
 
 ## Module inputs
 
-## Provider
+### Provider
 
 This module supports a custom provider. With a custom provider, IAM resources must be deployed in your home tenancy, which might be different from the region that will contain other deployments. 
 
@@ -156,27 +156,12 @@ policies_config = {
 This module is returning 1 map object:
 * `Policies` : Contains the details about each provisioned Policy.
 
-## Getting Started
-
-One fully-functional examples have been provided in the `examples` directory.  
-
-The scenarios covered in the examples section are:
-* 
-
-## Accessing the Solution
-
-This is a core service module that is foundational to many other resources in OCI, so there is really nothing to directly access.
-
-## Summary
-
-This module assist in provisioning OCI Policiesand adding statements to those policies.
-
 ## Notes/Issues
 
 
 ## URLs
 
-For Oracle Cloud Infrastructure IAM Dynamic Groups documentation, see https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policies.htm
+For Oracle Cloud Infrastructure IAM Dynamic Policies documentation, see https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policies.htm
 
 ## Versions
 
